@@ -4,11 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c7b1940d-c74a-4042-afcd-4017c52d00e4" name="Changes" comment="" />
+    <list default="true" id="0fd7621c-55ee-4c42-ba70-defabf4ca8bf" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catlog-service/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/catlog-service/.gitattributes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catlog-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/catlog-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catlog-service/src/main/java/com/suresh/bookstore/catlog/CatlogServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/catlog-service/src/main/java/com/suresh/bookstore/catlog/CatlogServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catlog-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/catlog-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catlog-service/src/test/java/com/suresh/bookstore/catlog/CatlogServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/catlog-service/src/test/java/com/suresh/bookstore/catlog/CatlogServiceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catlog-service/src/test/java/com/suresh/bookstore/catlog/TestCatlogServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/catlog-service/src/test/java/com/suresh/bookstore/catlog/TestCatlogServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catlog-service/src/test/java/com/suresh/bookstore/catlog/TestcontainersConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/catlog-service/src/test/java/com/suresh/bookstore/catlog/TestcontainersConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.sdkmanrc" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.sdkmanrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-microservices-course.iml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -17,43 +34,62 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
-  </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 1
-}]]></component>
-  <component name="ProjectId" id="2tLFDy22i1dMvM75rGrIp0o1lj3" />
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2tNvvpDpf7mfr7d5SEt49Z34SG0" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "JUnit.CatlogServiceApplicationTests.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "Spring Boot.CatlogServiceApplication.executor": "Run",
     "Spring Boot.TestCatlogServiceApplication.executor": "Run",
+    "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/msysu/spring-boot-microservices-course/pom.xml",
     "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Spring Boot.TestCatlogServiceApplication">
-    <configuration name="CatlogServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+  <component name="RunManager" selected="Spring Boot.CatlogServiceApplication">
+    <configuration name="CatlogServiceApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="catlog-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.suresh.bookstore.catlog.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.suresh.bookstore.catlog" />
+      <option name="MAIN_CLASS_NAME" value="com.suresh.bookstore.catlog.CatlogServiceApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CatlogServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="catlog-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.suresh.bookstore.catlog.CatlogServiceApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.suresh.bookstore.catlog.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -74,6 +110,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.CatlogServiceApplication" />
+        <item itemvalue="JUnit.CatlogServiceApplicationTests" />
         <item itemvalue="Spring Boot.TestCatlogServiceApplication" />
       </list>
     </recent_temporary>
@@ -89,16 +127,28 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c7b1940d-c74a-4042-afcd-4017c52d00e4" name="Changes" comment="" />
-      <created>1740123333321</created>
+      <changelist id="0fd7621c-55ee-4c42-ba70-defabf4ca8bf" name="Changes" comment="" />
+      <created>1740205583902</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1740123333321</updated>
-      <workItem from="1740123337412" duration="4954000" />
+      <updated>1740205583902</updated>
+      <workItem from="1740205586464" duration="387000" />
+      <workItem from="1740206234408" duration="8367000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
