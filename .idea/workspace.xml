@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0fd7621c-55ee-4c42-ba70-defabf4ca8bf" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/catlog-service/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/catlog-service/.gitattributes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catlog-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/catlog-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catlog-service/src/main/java/com/suresh/bookstore/catlog/CatlogServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/catlog-service/src/main/java/com/suresh/bookstore/catlog/CatlogServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catlog-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/catlog-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catlog-service/src/test/java/com/suresh/bookstore/catlog/CatlogServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/catlog-service/src/test/java/com/suresh/bookstore/catlog/CatlogServiceApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catlog-service/src/test/java/com/suresh/bookstore/catlog/TestCatlogServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/catlog-service/src/test/java/com/suresh/bookstore/catlog/TestCatlogServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catlog-service/src/test/java/com/suresh/bookstore/catlog/TestcontainersConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/catlog-service/src/test/java/com/suresh/bookstore/catlog/TestcontainersConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.sdkmanrc" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.sdkmanrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-microservices-course.iml" beforeDir="false" />
-    </list>
+    <list default="true" id="0fd7621c-55ee-4c42-ba70-defabf4ca8bf" name="Changes" comment="Catlog Service module setup" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,10 +13,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Mamidisetty/spring-boot-microservices-course.git",
-    "accountId": "96eea1f1-32e8-4e35-8039-292fc1243c41"
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Mamidisetty"
   }
 }]]></component>
   <component name="MavenImportPreferences">
@@ -54,6 +40,7 @@
     "JUnit.CatlogServiceApplicationTests.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "Spring Boot.CatlogServiceApplication.executor": "Run",
     "Spring Boot.TestCatlogServiceApplication.executor": "Run",
     "git-widget-placeholder": "master",
@@ -165,5 +152,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Catlog Service module setup" />
+    <option name="LAST_COMMIT_MESSAGE" value="Catlog Service module setup" />
   </component>
 </project>
