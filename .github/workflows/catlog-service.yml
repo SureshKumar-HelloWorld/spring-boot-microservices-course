@@ -7,6 +7,8 @@ on:
     branches:
       - 'main'
   pull_request:
+    paths:
+      - catlog-service/**
     branches: [main]
 
 jobs:
@@ -14,11 +16,8 @@ jobs:
     name: Build
     runs-on: ubuntu-latest
     env:
-      working-directory: ./catlog-service
       DOCKER_IMAGE_NAME: ${{ secrets.DOCKERHUB_USERNAME }}/bookstore-catlog-service
-    defaults:
-      run:
-        working-directory: ${{ env.working-directory }}
+
     steps:
       - uses: actions/checkout@v4
 
@@ -30,11 +29,12 @@ jobs:
           cache: 'maven'
 
       - name: Make Maven wrapper executable
-        run: chmod +x mvnw
+        run: chmod +x
+        working-directory: catlog-service
 
       - name: Build with Maven
         run: ./mvnw -ntp verify
-
+        working-directory: catlog-service
 
 
 
