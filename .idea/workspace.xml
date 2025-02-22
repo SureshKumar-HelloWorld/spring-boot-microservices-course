@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0fd7621c-55ee-4c42-ba70-defabf4ca8bf" name="Changes" comment="Catlog Service module setup" />
+    <list default="true" id="0fd7621c-55ee-4c42-ba70-defabf4ca8bf" name="Changes" comment="Catlog Service module setup">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,7 +55,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "vcs.log",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -126,7 +128,7 @@
       <option name="presentableId" value="Default" />
       <updated>1740205583902</updated>
       <workItem from="1740205586464" duration="387000" />
-      <workItem from="1740206234408" duration="8816000" />
+      <workItem from="1740206234408" duration="10224000" />
     </task>
     <task id="LOCAL-00001" summary="Catlog Service module setup">
       <option name="closed" value="true" />
@@ -136,7 +138,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740259500047</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Catlog Service module setup">
+      <option name="closed" value="true" />
+      <created>1740259720750</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1740259720751</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
