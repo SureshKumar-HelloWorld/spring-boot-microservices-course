@@ -7,21 +7,20 @@ on:
     branches:
       - 'main'
   pull_request:
-    paths:
-      - catlog-service/**
-    branches:
-      - 'main'
+    branches: [main]
 
 jobs:
   build:
     name: Build
     runs-on: ubuntu-latest
     env:
+      working-directory: ./catlog-service
       DOCKER_IMAGE_NAME: ${{ secrets.DOCKERHUB_USERNAME }}/bookstore-catlog-service
-
+    defaults:
+      run:
+        working-directory: ${{ env.working-directory }}
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
       - name: Setup Java 21
         uses: actions/setup-java@v4
@@ -30,12 +29,8 @@ jobs:
           distribution: 'temurin'
           cache: 'maven'
 
-      - name: Change to Working Directory
-        run: cd catlog-service
-
       - name: Make Maven wrapper executable
-        run: chmod +x catlog-service/mvnw
+        run: chmod +x mvnw
 
       - name: Build with Maven
         run: ./mvnw -ntp verify
-        working-directory: catlog-service
