@@ -1,27 +1,26 @@
-name: Catlog Service
+name: Catalog Service
 
 on:
   push:
     paths:
-      - catlog-service/**
+      - catalog-service/**
     branches:
       - 'main'
   pull_request:
-    paths:
-      - catlog-service/**
-    branches:
-      - 'main'
+    branches: [main]
 
-jobs:  # <-- FIXED: Correct indentation
+jobs:
   build:
     name: Build
     runs-on: ubuntu-latest
     env:
-      DOCKER_IMAGE_NAME: ${{ secrets.DOCKERHUB_USERNAME }}/bookstore-catlog-service
-
+      working-directory: ./catalog-service
+      DOCKER_IMAGE_NAME: ${{ secrets.DOCKERHUB_USERNAME }}/bookstore-catalog-service
+    defaults:
+      run:
+        working-directory: ${{ env.working-directory }}
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
       - name: Setup Java 21
         uses: actions/setup-java@v4
@@ -32,11 +31,10 @@ jobs:  # <-- FIXED: Correct indentation
 
       - name: Make Maven wrapper executable
         run: chmod +x mvnw
-        working-directory: catlog-service
 
       - name: Build with Maven
         run: ./mvnw -ntp verify
-        working-directory: catlog-service
+
 
 
 
