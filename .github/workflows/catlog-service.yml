@@ -22,7 +22,7 @@ jobs:
 
       - name: Make mvnw executable
         run: chmod +x mvnw
-        working-directory: : ${{ env.working-directory }}
+        working-directory: ${{ env.working-directory }}
 
       - name: Setup Oracle JDK 21
         uses: actions/setup-java@v4
