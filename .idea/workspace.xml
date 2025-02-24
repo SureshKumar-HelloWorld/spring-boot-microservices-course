@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0fd7621c-55ee-4c42-ba70-defabf4ca8bf" name="Changes" comment="Catlog Service module setup">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.sdkmanrc" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.sdkmanrc" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,7 +140,7 @@
       <updated>1740205583902</updated>
       <workItem from="1740205586464" duration="387000" />
       <workItem from="1740206234408" duration="10666000" />
-      <workItem from="1740375824501" duration="3864000" />
+      <workItem from="1740375824501" duration="6575000" />
     </task>
     <task id="LOCAL-00001" summary="Catlog Service module setup">
       <option name="closed" value="true" />
