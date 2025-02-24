@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0fd7621c-55ee-4c42-ba70-defabf4ca8bf" name="Changes" comment="Catlog Service module setup">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/catlog-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/catlog-service.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,6 +22,12 @@
     &quot;assignee&quot;: &quot;Mamidisetty&quot;
   }
 }</component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Mamidisetty/spring-boot-microservices-course.git",
+    "accountId": "96eea1f1-32e8-4e35-8039-292fc1243c41"
+  }
+}]]></component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -40,12 +47,16 @@
   &quot;keyToString&quot;: {
     &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;JUnit.CatlogServiceApplicationTests.executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
     &quot;Spring Boot.CatlogServiceApplication.executor&quot;: &quot;Run&quot;,
     &quot;Spring Boot.TestCatlogServiceApplication.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/msysu/spring-boot-microservices-course/pom.xml&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -129,6 +140,7 @@
       <updated>1740205583902</updated>
       <workItem from="1740205586464" duration="387000" />
       <workItem from="1740206234408" duration="10666000" />
+      <workItem from="1740375824501" duration="712000" />
     </task>
     <task id="LOCAL-00001" summary="Catlog Service module setup">
       <option name="closed" value="true" />

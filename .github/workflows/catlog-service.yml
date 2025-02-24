@@ -29,6 +29,15 @@ jobs:
           distribution: 'temurin'
           cache: 'maven'
 
+
+      - name: Verify Java Version
+        run: |
+          echo "Java Home: $JAVA_HOME"
+          java -version
+
+      - name: Debug Working Directory
+        run: pwd
+
       - name: Make Maven wrapper executable
         run: chmod +x mvnw
 
