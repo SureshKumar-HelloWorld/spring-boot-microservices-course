@@ -2,7 +2,7 @@
 
 
 
-We will build a BookStore application using Spring Boot, Spring Cloud, and Docker.
+We will build a BookStore Application using Spring Boot, Spring Cloud, and Docker.
 
 BookStore Microservices Architecture
 
