@@ -2,7 +2,7 @@
 
 
 
-We will build a BookStore application using Spring Boot, Spring Cloud, and Docker.
+We will build a BookStore Application using Spring Boot, Spring Cloud, and Docker.
 
 BookStore Microservices Architecture
 
@@ -43,9 +43,9 @@ Learning Objectives
 * Local Development Setup using Docker, Docker Compose and Testcontainers
 * Testing using JUnit 5, RestAssured, Testcontainers, Awaitility, WireMock
 * Building Web Application using Thymeleaf, Alpine.js, Bootstrap
-* Monitoring & Observability using Grafana, Prometheus, Loki, Tempo (Membership)
-* Kubernetes Basics (Membership)
-* Deployment to Kubernetes (Membership)
+* Monitoring & Observability using Grafana, Prometheus, Loki, Tempo 
+* Kubernetes Basics 
+* Deployment to Kubernetes 
 * Local Development Setup
 * Install Java 21. Recommend using SDKMAN for managing Java versions.
 * Install Docker Desktop
