@@ -29,17 +29,18 @@ class ProductRepositoryTest {
     }
 
     @Test
-    void shouldGetProductByCode(){
-        ProductEntity product= productRepository.findByCode("P100").orElseThrow();
+    void shouldGetProductByCode() {
+        ProductEntity product = productRepository.findByCode("P100").orElseThrow();
         assertThat(product.getCode()).isEqualTo("P100");
         assertThat(product.getName()).isEqualTo("Confabulations");
-        assertThat(product.getDescription()).isEqualTo("'Language is a body, a living creature ... and this creature's home is the inarticulate as well as the articulate'. John Berger's work has revolutionized the way we understand visual language. In this new book he writes about language itself, and how it relates to thought, art, song, storytelling and political discourse today. Also containing Berger's own drawings, notes, memories and reflections on everything from Albert Camus to global capitalism, Confabulations takes us to what is 'true, essential and urgent'.");
+        assertThat(product.getDescription())
+                .isEqualTo(
+                        "'Language is a body, a living creature ... and this creature's home is the inarticulate as well as the articulate'. John Berger's work has revolutionized the way we understand visual language. In this new book he writes about language itself, and how it relates to thought, art, song, storytelling and political discourse today. Also containing Berger's own drawings, notes, memories and reflections on everything from Albert Camus to global capitalism, Confabulations takes us to what is 'true, essential and urgent'.");
         assertThat(product.getPrice()).isEqualTo(new BigDecimal("25.00"));
-
     }
 
     @Test
-    void shouldReturnEmptyWhenProductCodeNotExists(){
+    void shouldReturnEmptyWhenProductCodeNotExists() {
         assertThat(productRepository.findByCode("Invalid_product_code")).isEmpty();
     }
 }
