@@ -1,6 +1,7 @@
 package com.suresh.bookstore.catlog.domain;
 
 import com.suresh.bookstore.catlog.ApplicationProperties;
+import java.util.Optional;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
@@ -18,13 +19,12 @@ public class ProductService {
         this.productRepository = productRepository;
         this.properties = properties;
     }
-    public PagedResult<Product> getProducts(int pageNo){
-        Sort sort=Sort.by("name").ascending();
-        pageNo =pageNo <= 1 ? 0 : pageNo - 1;
-        Pageable pageable= PageRequest.of(pageNo,properties.pageSize(),sort);
-        Page<Product> productsPage=
-                productRepository.findAll(pageable)
-                        .map(ProductMapper::toProduct);
+
+    public PagedResult<Product> getProducts(int pageNo) {
+        Sort sort = Sort.by("name").ascending();
+        pageNo = pageNo <= 1 ? 0 : pageNo - 1;
+        Pageable pageable = PageRequest.of(pageNo, properties.pageSize(), sort);
+        Page<Product> productsPage = productRepository.findAll(pageable).map(ProductMapper::toProduct);
         return new PagedResult<>(
                 productsPage.getContent(),
                 productsPage.getTotalElements(),
@@ -34,6 +34,9 @@ public class ProductService {
                 productsPage.isLast(),
                 productsPage.hasNext(),
                 productsPage.hasPrevious());
-        
+    }
+
+    public Optional<Product> getProductByCode(String code) {
+        return productRepository.findByCode(code).map(ProductMapper::toProduct);
     }
 }
