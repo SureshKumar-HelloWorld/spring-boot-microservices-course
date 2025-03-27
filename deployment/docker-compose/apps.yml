@@ -1,0 +1,22 @@
+name : 'spring-boot-microservices-course'
+services:
+  catlog-services:
+     image: mamidisettysuresh/bookstore-catlog-service
+     container_name: catlog-service
+     environment:
+       - SPRING_PROFILES_ACTIVE=docker
+       - DB_URL=jdbc:postgresql://catlog-db:5432/postgres
+       - DB_USERNAME=postgres
+       - DB_PASSWORD=postgres
+     ports:
+        - "8081:8081"
+     restart: unless-stopped
+     depends_on:
+        catlog-db:
+          condition: service_healthy
+
+     deploy:
+       resources:
+         limits:
+           memory: 700m
+
