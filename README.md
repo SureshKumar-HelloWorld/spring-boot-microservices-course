@@ -32,7 +32,7 @@ Modules
 
 Learning Objectives
 * Building Spring Boot REST APIs
-* Database Persistence using Spring Data JPA, Postgres, Flyway
+* Database Persistence using Spring Data JPA, PostgreSQL, Flyway
 * Event Driven Async Communication using RabbitMQ
 * Implementing OAuth2-based Security using Spring Security and Keycloak
 * Implementing API Gateway using Spring Cloud Gateway
