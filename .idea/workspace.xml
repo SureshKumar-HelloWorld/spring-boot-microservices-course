@@ -5,13 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0fd7621c-55ee-4c42-ba70-defabf4ca8bf" name="Changes" comment="Catlog Service module setup">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.sdkmanrc" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.sdkmanrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catlog-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/catlog-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catlog-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/catlog-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catlog-service/src/test/resources/test-data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/catlog-service/src/test/resources/test-data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/docker-compose/apps.yml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/docker-compose/apps.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/docker-compose/infra.yml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/docker-compose/infra.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Record" />
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -22,18 +36,28 @@
     &quot;assignee&quot;: &quot;Mamidisetty&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Mamidisetty/spring-boot-microservices-course.git",
-    "accountId": "96eea1f1-32e8-4e35-8039-292fc1243c41"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Mamidisetty/spring-boot-microservices-course.git&quot;,
+    &quot;accountId&quot;: &quot;96eea1f1-32e8-4e35-8039-292fc1243c41&quot;
   }
-}]]></component>
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/catlog-service/src/main/java/com/suresh/bookstore/catlog/domain/ProductService.java" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
       </MavenGeneralSettings>
     </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="21" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
@@ -46,7 +70,19 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Docker.docker-compose/apps.yml.catlog-service: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.docker-compose/apps.yml.catlog-services: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.docker-compose/apps.yml: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.docker-compose/infra.yml.catlog-db: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.docker-compose/infra.yml: Compose Deployment.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.CatlogServiceApplicationTests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ProductControllerTest (1).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ProductControllerTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ProductControllerTest.shouldReturnProducts.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.ProductRepositoryTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ProductRepositoryTest.shouldGetAllProducts.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.catlog-service [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.catlog-service [package].executor&quot;: &quot;Run&quot;,
     &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
     &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
     &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
@@ -56,9 +92,11 @@
     &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
     &quot;Spring Boot.CatlogServiceApplication.executor&quot;: &quot;Run&quot;,
     &quot;Spring Boot.TestCatlogServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/msysu/spring-boot-microservices-course/pom.xml&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/msysu/Desktop/ark-view&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
@@ -66,11 +104,20 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.log&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Spring Boot.CatlogServiceApplication">
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.suresh.bookstore.catlog.domain" />
+      <recent name="com.suresh.bookstore.catlog.web.controllers" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Docker.docker-compose/apps.yml.catlog-service: Compose Deployment">
     <configuration name="CatlogServiceApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="catlog-service" />
       <extension name="coverage">
@@ -114,11 +161,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose/apps.yml.catlog-service: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="catlog-service" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="deployment/docker-compose/apps.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose/infra.yml.catlog-db: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="catlog-db" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="deployment/docker-compose/infra.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Docker.docker-compose/apps.yml.catlog-service: Compose Deployment" />
+      <item itemvalue="Docker.docker-compose/infra.yml.catlog-db: Compose Deployment" />
+      <item itemvalue="JUnit.CatlogServiceApplicationTests" />
+      <item itemvalue="Spring Boot.CatlogServiceApplication" />
+      <item itemvalue="Spring Boot.TestCatlogServiceApplication" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Docker.docker-compose/apps.yml.catlog-service: Compose Deployment" />
+        <item itemvalue="Spring Boot.TestCatlogServiceApplication" />
+        <item itemvalue="Docker.docker-compose/infra.yml.catlog-db: Compose Deployment" />
         <item itemvalue="Spring Boot.CatlogServiceApplication" />
         <item itemvalue="JUnit.CatlogServiceApplicationTests" />
-        <item itemvalue="Spring Boot.TestCatlogServiceApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -140,7 +228,30 @@
       <updated>1740205583902</updated>
       <workItem from="1740205586464" duration="387000" />
       <workItem from="1740206234408" duration="10666000" />
-      <workItem from="1740375824501" duration="6575000" />
+      <workItem from="1740375824501" duration="6900000" />
+      <workItem from="1740390417437" duration="3675000" />
+      <workItem from="1740454797599" duration="25110000" />
+      <workItem from="1740547104880" duration="9445000" />
+      <workItem from="1740567452679" duration="943000" />
+      <workItem from="1740657327055" duration="4654000" />
+      <workItem from="1742148648850" duration="1396000" />
+      <workItem from="1742221650300" duration="10308000" />
+      <workItem from="1742293236573" duration="12393000" />
+      <workItem from="1742358337387" duration="11430000" />
+      <workItem from="1742491709507" duration="8837000" />
+      <workItem from="1742622798778" duration="11066000" />
+      <workItem from="1742748947718" duration="1674000" />
+      <workItem from="1742835407902" duration="2310000" />
+      <workItem from="1742895662633" duration="727000" />
+      <workItem from="1742925146284" duration="981000" />
+      <workItem from="1742978349800" duration="5516000" />
+      <workItem from="1743153704968" duration="6990000" />
+      <workItem from="1743270540251" duration="140000" />
+      <workItem from="1743485485529" duration="1588000" />
+      <workItem from="1743502299912" duration="10320000" />
+      <workItem from="1743582361632" duration="11737000" />
+      <workItem from="1743694627335" duration="39000" />
+      <workItem from="1743694859729" duration="5758000" />
     </task>
     <task id="LOCAL-00001" summary="Catlog Service module setup">
       <option name="closed" value="true" />
@@ -178,5 +289,15 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Catlog Service module setup" />
     <option name="LAST_COMMIT_MESSAGE" value="Catlog Service module setup" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ClassNotFoundException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
