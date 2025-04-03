@@ -1,13 +1,17 @@
 name: Catlog Service
 
 on:
+  workflow_dispatch:
   push:
     paths:
       - catlog-service/**
     branches:
       - 'main'
   pull_request:
-    branches: [main]
+    branches:
+      - 'main'
+    paths:
+      - catlog-service/**
 
 jobs:
   build:
