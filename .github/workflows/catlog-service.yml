@@ -5,8 +5,9 @@ on:
     paths:
       - catlog-service/**
     branches:
-      - '**'
-  workflow_dispatch:
+      - 'main'
+  pull_requests:
+    branches: [main]
 
 jobs:
   build:
