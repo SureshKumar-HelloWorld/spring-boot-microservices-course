@@ -51,3 +51,5 @@ jobs:
           ./mvnw spring-boot:build-image -DskipTests
           docker push ${{ secrets.DOCKER_USERNAME }}/bookstore-catlog-service
 
+
+
