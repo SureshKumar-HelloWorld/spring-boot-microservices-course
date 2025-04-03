@@ -1,6 +1,7 @@
+version: "3.8"
 name : 'spring-boot-microservices-course'
 services:
-  catlog-services:
+  catlog-service:
      image: mamidisettysuresh/bookstore-catlog-service
      container_name: catlog-service
      environment:
@@ -9,12 +10,11 @@ services:
        - DB_USERNAME=postgres
        - DB_PASSWORD=postgres
      ports:
-        - "8081:8081"
+       - "8081:8081"
      restart: unless-stopped
      depends_on:
-        catlog-db:
-          condition: service_healthy
-
+       catlog-db:
+         condition: service_healthy
      deploy:
        resources:
          limits:
