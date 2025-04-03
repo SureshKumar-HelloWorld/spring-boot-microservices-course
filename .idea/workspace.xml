@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0fd7621c-55ee-4c42-ba70-defabf4ca8bf" name="Changes" comment="Catlog Service module setup">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/catlog-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/catlog-service.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catlog-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/catlog-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catlog-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/catlog-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catlog-service/src/test/resources/test-data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/catlog-service/src/test/resources/test-data.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/docker-compose/apps.yml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/docker-compose/apps.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/docker-compose/infra.yml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/docker-compose/infra.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -251,7 +246,7 @@
       <workItem from="1743502299912" duration="10320000" />
       <workItem from="1743582361632" duration="11737000" />
       <workItem from="1743694627335" duration="39000" />
-      <workItem from="1743694859729" duration="5758000" />
+      <workItem from="1743694859729" duration="6770000" />
     </task>
     <task id="LOCAL-00001" summary="Catlog Service module setup">
       <option name="closed" value="true" />
