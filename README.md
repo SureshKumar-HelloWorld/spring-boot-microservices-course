@@ -16,7 +16,7 @@ Modules
 
 * order-service: This service provides the REST API for managing orders and publishes order events to the message broker.
 
-  TechStack: Spring Boot, Spring Security OAuth2, Keycloak, Spring Data JPA, PostgreSQL, RabbitMQ
+  TechStack: Spring Boot, Spring Rest API's, Spring Security OAuth2, Keycloak, Spring Data JPA, PostgreSQL, RabbitMQ
 
 * notification-service: This service listens to the order events and sends notifications to the users.
 
