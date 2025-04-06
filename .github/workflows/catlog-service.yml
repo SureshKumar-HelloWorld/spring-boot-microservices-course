@@ -6,7 +6,12 @@ on:
       - catlog-service/**
     branches:
       - '**'
-    workflow_dispatch:
+  workflow_dispatch:
+    inputs:
+      skip_tests:
+        description: 'Skip tests while building Docker image?'
+        required: false
+        default: 'true'
 
 jobs:
   build:
@@ -43,6 +48,10 @@ jobs:
       - name: Build and Publish Docker Image
         if: ${{ github.ref == 'refs/heads/main' }}
         run: |
-          ./mvnw spring-boot:build-image -DskipTests
+          ./mvnw spring-boot:build-image \
+            -Dspring-boot.build-image.imageName=${{ secrets.DOCKER_USERNAME }}/bookstore-catlog-service \
+            -DskipTests=${{ github.event.inputs.skip_tests || 'true' }}
+
+           
           docker push ${{ secrets.DOCKER_USERNAME }}/bookstore-catlog-service
 
