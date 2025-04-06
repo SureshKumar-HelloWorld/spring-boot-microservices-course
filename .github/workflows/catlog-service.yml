@@ -53,5 +53,5 @@ jobs:
             -DskipTests=${{ github.event.inputs.skip_tests || 'true' }}
 
            
-          docker push ${{ secrets.DOCKERHUB_USERNAME }}/bookstore-catlog-service
+          docker push ${{ secrets.DOCKERHUB_USERNAME }}/bookstore-catlog-service:latest
 
